@@ -1,4 +1,5 @@
 # URL Shortener Microservice 
+* This project utilizes a MongoDB databse hosted on mLab
 
 ###  Features
 
