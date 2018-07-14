@@ -9,4 +9,6 @@
 3. To visit the shortened URL go to:
    https://glossy-clownfish.glitch.me/api/shorturl/<short_url>
 
+
 Working example on glitch: https://glossy-clownfish.glitch.me/
+### Homepage of project is Free Code Camp boilerplate will be changed soon
