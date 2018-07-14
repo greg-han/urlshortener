@@ -3,8 +3,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
+	color: #F4F6F7  ;
+	background-color: #2E86C1  ;
 	text-align: center;
 	line-height: 1.4em;
 }
@@ -14,12 +14,19 @@ body {
 	margin-top: 40px;
 }
 
+h2 {
+ font-size: 5em;
+ font-family: 'Libre Barcode 128 Text', cursive;
+}
+
 h3 {
   margin-top: 30px;
+  font-size: 1.5em;
 }
 
 .footer {
 	margin-top: 40px;
+  font-weight: bold;
 }
 
 .user-stories {
@@ -30,9 +37,10 @@ h3 {
 }
 code {
   font-family: monospace;
-  padding: 2px;
   color: black;
-  background-color: #fff;
+  background-color: #F1F5E5;
+  margin: 1px auto;
+  font-weight: normal;
 }
 ol {
 	list-style-position: inside;
@@ -43,6 +51,7 @@ ul {
 
 li {
   margin-bottom: 0.5em;
+  font-weight: bold;
 }
 .user-stories li {
   margin-bottom: 1em;
@@ -54,6 +63,9 @@ a {
 
 form {
   border: solid 1px black;
+  font-weight: 500;
+  background: #EBF5FB;
+  color: black;
   border-radius: 5px;
   margin: 10px auto;
   padding: 20px;
@@ -68,6 +80,10 @@ input {
   padding: 5px;
 }
 
+input[type=submit]{
+  background-color: #FBFCFC;
+  font-weight: 600;
+}
 input[type=text] {
   width: 220px;
   text-align: center;
